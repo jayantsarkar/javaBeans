@@ -14,6 +14,7 @@ public class FirstJava {
 	 */
 	public FirstJava() {
 		// TODO Auto-generated constructor stub
+		System.out.println("Inside FirstJava() constructor");
 	}
 
 	/**
@@ -21,6 +22,8 @@ public class FirstJava {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		FirstJava firstJava = new FirstJava();
+		System.out.println("Hello from javaBeans.FirstJava");
 
 	}
 
